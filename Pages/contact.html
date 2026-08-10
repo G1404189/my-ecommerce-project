@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Book a consultation or send an enquiry to Be yoU Energy — holistic therapy, Radiesthesia and Radionics with Maria.">
+    <title>Contact & Bookings - Be yoU Energy</title>
+    <!-- Ligação correta para o CSS que está fora da pasta pages -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Menu Global de Navegação (Injetado para permitir a saída da página) -->
+    <header>
+        <nav>
+            <!-- Botão Hambúrguer para Telemóveis -->
+            <button class="menu-toggle" aria-label="Toggle navigation menu" onclick="toggleMenu()">
+                ☰
+            </button>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Shop Products</a></li>
+                <li><a href="cart.html">Shopping Cart</a></li>
+                <li><a href="about.html">About My Practice</a></li>
+                <li><a href="contact.html" class="active">Contact & Bookings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+    <!-- Topo com a Imagem do Portal Cósmico -->
+    <section class="hero-section">
+        <h1>Cross the Portal to Your True Frequency</h1>
+        <p>"Leave the noise of the outside world behind and step into your alignment."</p>
+    </section>
+
+    <!-- Formulário Técnico de Agendamento -->
+    <div class="container">
+        <div class="form-intro">
+            <h2>Connect with Be yoU Energy</h2>
+            <p>Fill out the form below to submit a general enquiry or provide your session details.</p>
+        </div>
+
+        <form action="#" method="POST">
+
+            <div class="form-group">
+                <label for="client-email">Your Email Address</label>
+                <input type="email" id="client-email" required placeholder="name@example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="enquiry-type">Reason for Contact</label>
+                <select id="enquiry-type" required onchange="controlWitnessBox()">
+                    <option value="" disabled selected>Select an option...</option>
+                    <option value="general">General Enquiry / Question</option>
+                    <option value="witness">I bought an Alignment Cycle (Submit Witness Details)</option>
+                    <option value="wholesale">Shop Enquiry (Radionic Graphics / Biometers)</option>
+                </select>
+
+            </div>
+
+            <!-- Secção do Testemunho -->
+            <div class="witness-box" id="witness-box-container">
+                <h3>Witness Details (Required - For Treatments)</h3>
+                <p style="font-size: 0.9em; color: #666; margin-bottom: 15px;">Please provide your information for the
+                    biometer analysis below:</p>
+
+                <div class="form-group">
+                    <label for="witness-name">Full Name (As written on birth certificate)</label>
+                    <input type="text" id="witness-name" placeholder="John Emmanuel Doe">
+                </div>
+
+                <div class="form-group">
+                    <label for="witness-dob">Date of Birth</label>
+                    <input type="date" id="witness-dob">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message or Intentions</label>
+                <textarea id="message" rows="5"
+                    placeholder="Describe your main goals, symptoms, or questions here..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Request</button>
+        </form>
+    </div>
+
+    <div class="delivery-info"
+        style="max-width: 700px; margin: 40px auto 80px auto; padding: 30px; background-color: white; border-left: 5px solid #804bcf; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.04); text-align: justify; font-family: 'Arial', sans-serif; box-sizing: border-box;">
+        <h3 style="color: #804bcf; margin-top: 0; font-size: 1.4em; margin-bottom: 20px;">Delivery & Service Activation
+        </h3>
+
+        <p style="margin-bottom: 15px; line-height: 1.6; color: #333;"><strong>1. Digital & Remote Services (Energetic
+                Alignments / GRT)</strong><br>
+            <span style="color: #666; font-size: 0.95em;">Because all treatments are conducted remotely and customised
+                to your unique biofield, there is no physical shipping involved. Once your payment is confirmed and your
+                witness details (Full Name and Date of Birth) are submitted, your biometer analysis will begin. Your
+                custom radionic treatments will be assembled and activated within <strong>24 to 48
+                    hours</strong>.</span>
+        </p>
+
+        <p style="margin-bottom: 15px; line-height: 1.6; color: #333;"><strong>2. Digital Downloads (PDF Charts &
+                Tools)</strong><br>
+            <span style="color: #666; font-size: 0.95em;">All print-ready vector PDF files, digital charts, journals,
+                and educational blueprints are delivered instantly via email <strong>worldwide</strong> with zero
+                regional borders and no shipping fees.</span>
+        </p>
+
+        <div style="margin-bottom: 0; line-height: 1.6; color: #333;"><strong>3. Physical Products & Hardware
+                Shipping</strong><br>
+            <span style="color: #666; font-size: 0.95em;">All physical items are carefully packaged and dispatched from
+                our studio via <strong>Royal Mail Tracked services</strong>. Our shipping rules vary by product
+                type:</span>
+            <ul
+                style="margin-top: 8px; margin-bottom: 0; padding-left: 20px; color: #666; font-size: 0.95em; line-height: 1.6;">
+                <li style="margin-bottom: 8px;"><strong>Laminated Reference Charts (Worldwide Shipping):</strong>
+                    Dispatched within 1 to 2 business days. Delivery within the UK mainland takes 3 to 5 business days
+                    and is always <strong>FREE.</strong> International shipping is available to any destination (7 to 14
+                    business days) with weight-based international courier rates applied at checkout.</li>
+                <li><strong>Physical Energetic Tools & Jewellery (UK Mainland Only):</strong> Carefully packaged and
+                    dispatched via Royal Mail Tracked services. Standard shipping takes 3 to 5 business days and is
+                    <strong>FREE on UK mainland orders totalling £25.00 or more</strong> (standard rates apply below
+                    £25.00).
+                </li>
+                <li><strong>Handcrafted Wooden Boards (UK Only):</strong> Due to their weight and custom protective
+                    packaging, our Pro-Series emitter boards are strictly limited to <strong>UK addresses only</strong>.
+                    Please allow 5 to 7 business days for proper resin setting before dispatch. Standard weight-based
+                    shipping charges always apply.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- O BLOCO DO FAQ -->
+    <section class="delivery-info">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3>1. What is Radionics and how do the remote treatments work?</h3>
+            <p>All bioenergetic alignments and Radionics treatments are conducted fully remotely utilizing your
+                unique
+                biofield details. Once your witness details (Full Name and Date of Birth) are submitted, your
+                biometer
+                analysis begins. Your customized treatments are then assembled and activated within 24 to 48 hours,
+                meaning no physical attendance is required.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>2. How long does it take to see results from an Energetic Alignment?</h3>
+            <p>Energy neutralisation and alignment protocols begin immediately upon activation. However, because
+                every
+                individual biofield responds differently, integration times can vary. Most clients report a shift in
+                clarity and emotional balance within the first few days of the cycle.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>3. Can the handcrafted wooden boards be shipped internationally?</h3>
+            <p>Due to their weight and custom protective packaging, our Pro-Series emitter boards are strictly
+                limited
+                to UK mainland addresses only. This ensures they arrive safely and without damage. Standard
+                weight-based
+                shipping charges will always apply to these items at checkout.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>4. Are the digital charts and journals printable?</h3>
+            <p>Yes, absolutely. All digital products, including our specialised charts and sensory grounding
+                journals,
+                are delivered instantly to your email as print-ready PDF files. These carry zero shipping fees and
+                can
+                be printed worldwide for your personal use.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>5. Which payment methods do you accept, and is my data secure?</h3>
+            <p>We accept all major credit and debit cards, as well as secure online payment gateways. Your financial
+                safety is our priority, which is why all transactions are processed through fully encrypted, secure
+                systems to guarantee absolute data protection.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>6. Can I request a refund if I change my mind?</h3>
+            <p>Due to the highly customized and time-sensitive nature of our tailored bioenergetic alignments,
+                digital
+                downloads, and remote treatments, we cannot offer refunds once the services have been activated or
+                files
+                delivered. For physical hardware, please refer to our full Terms & Conditions page.</p>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- Global Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Be yoU Energy. All rights reserved.</p>
+            <p>Therapy, Radiesthesia & Radionics | Contact: +351 928 151 353</p>
+            <ul class="footer-links">
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms & Conditions</a></li>
+                <li><a href="../evidence/accessibility_audit.txt">Accessibility Statement</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Ligação correta para o JavaScript que está fora da pasta pages -->
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
